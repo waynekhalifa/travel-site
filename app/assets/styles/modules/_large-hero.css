@@ -7,11 +7,16 @@
   }
 
   &__text-context {
+    padding-top: 80px;
 	  position: absolute;
 	  top: 50%;
 	  transform: translateY(-50%);
 	  width: 100%;
 	  text-align: center;
+
+    @mixin atMedium {
+      padding-top: 60px;
+    }
 	}
 
 	&__title {
@@ -50,7 +55,3 @@
 		}
 	}
 }
-
-
-
-

@@ -2,7 +2,7 @@
   Instead edit gulp/templates/sprite */
 
     .icon {
-      background: url('/assets/images/sprites/sprite-cbdfe7ac.svg');
+      background: url('../../assets/images/sprites/sprite-cbdfe7ac.svg');
     }
   .icon--clear-view-escapes {
     width: 144.4px;
